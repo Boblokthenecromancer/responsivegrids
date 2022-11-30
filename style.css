@@ -2,8 +2,15 @@ body{
     margin: 20px;
     background-color: aquamarine;
 }
+#wrapper > div{
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
 #header{
     grid-area: header;
+    background-color: blueviolet;
 }
 #nav{
     grid-area: nav;
@@ -30,9 +37,7 @@ body{
         "nav content aside sidebar"
         "footer footer footer footer";
 }
-#wrapper > div{
-    background-color: blanchedalmond;
-    text-align: center;
+
 }
 @media all and (max-width: 1200px){
     body {
