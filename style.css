@@ -1,3 +1,21 @@
 body{
+    margin: 20px;
     background-color: aquamarine;
+}
+
+@media all and (max-width: 1200px){
+    body {
+        background-color: blueviolet;
+    }
+}
+@media all and (max-width: 800px){
+    body {
+        background-color:royalblue ;
+    }
+}
+@media all and (max-width: 500px){
+    body {
+        color: whitesmoke;
+        background-color: black;
+    }
 }
